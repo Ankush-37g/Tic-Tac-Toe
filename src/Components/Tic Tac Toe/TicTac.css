@@ -1,0 +1,63 @@
+.container{
+    text-align: center;
+}
+.title{
+    color : white;
+    margin-top : 50px;
+    /* display : flex;
+    justify-content: center;
+    align-items: center; */
+
+    
+}
+.title span{
+    color:aqua;
+}
+.reset{
+    width:100px;
+    height : 50px;
+    border-radius: 90px;
+    background-color: rgb(5, 14, 19);
+    cursor : pointer;
+    outline:  none;
+    font-size : 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color :aqua
+}
+.boxes{
+    height : 100px;
+    width : 100px;
+    background-color: rgb(103, 133, 159);
+    border : 3px solid black;
+    border-radius: 12px;
+   
+    margin :2px;
+    display : flex;
+}
+
+.board {
+     height : 320px;
+     width : 320px;
+     display : grid; 
+     grid-template-columns: auto auto auto ;
+     margin : auto;
+}
+img{
+    margin:30px 30px;
+}
+.cross{
+    font-size : 60px;
+    margin : auto;
+    color: rgba(255, 225, 0, 0.801);
+
+}
+.circle{
+    font-size : 60px;
+    margin : auto;
+    color: rgb(0, 251, 255);
+}
+
+h2 .winner{
+    color:rgb(250, 245, 215);
+}
